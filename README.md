@@ -8,4 +8,4 @@ Repository ini digunakan untuk mempelajari fundamental bahasa Go, memahami konse
 3. Memahami struktur kontrol if dan switch dan perulangan .
 
 catatan : tugas minggu ke-1 didalam folder '01-pemrograman-dasar-go'  
-cara menjalankan : masuk ke folder week-1 dan ketik 'go run .'
+cara menjalankan : masuk ke folder 01-pemrograman-dasar-go dan ketik 'go run .'
