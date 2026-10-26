@@ -10,7 +10,7 @@ func CheckDuplicates(items []string) []string {
 	slices.Sort(items)
 
 	for i := 0; i < len(items); i++ {
-		if i > 0 && items[i] == items[i-1] {
+		if i > 0 && items[i] == items[i-1] && !slices.Contains(duplicates, items[i]) {
 			duplicates = append(duplicates, items[i])
 		}
 	}

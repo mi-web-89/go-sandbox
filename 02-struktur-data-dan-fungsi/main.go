@@ -23,7 +23,7 @@ func main() {
 
 	fmt.Println("--------------------------")
 
-	keranjang := make([]struk.Barang, 0, jumlahBarang)
+	keranjang := make([]struk.Barang, 0, jumlahBarang) // slice of struct
 	for i := 0; i < jumlahBarang; i++ {
 		nama, err := input.InputString("input nama barang : ")
 		if err != nil {
@@ -71,12 +71,12 @@ func main() {
 	fmt.Println("total belanja : ", totalBelanja)
 
 	fmt.Println("============== 02. check duplicates ==============")
-	items := []string{"b", "a", "e", "b", "c"}
+	items := []string{"b", "a", "e", "b", "c", "a"}
+	fmt.Println(operator.CheckDuplicates(items))
 	items = []string{"kiwi", "kiwi"}
-	items = []string{"x", "y", "z", "x", "y", "z"}
-	duplicates := operator.CheckDuplicates(items)
-
-	fmt.Println(duplicates)
+	fmt.Println(operator.CheckDuplicates(items))
+	items = []string{"x", "y", "z", "x", "y", "z", "x", "y", "z"}
+	fmt.Println(operator.CheckDuplicates(items))
 
 	fmt.Println("============== 03. check intersect ==============")
 	items1 := []string{"apple", "mango", "banana", "guava"}
