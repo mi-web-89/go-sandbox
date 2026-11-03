@@ -14,4 +14,7 @@ cara menjalankan : masuk ke folder 01-pemrograman-dasar-go dan ketik 'go run .'
 1. Memahami struktur data yaitu array, slice, map dan linked-list. 2. memahami package - package dan fungsi atau method untuk bekerja dengan struktur data tersebut.
 3. Memahami struktur fungsi, advance fungsi yaitu : variadic, anonymous, fungsi sebagai argumen, recursive fungsi 
 
-catatan : tugas minggu ke-2 didalam folder '02-struktur-data-dan-fungsi'  
+🎯 Topik Pembelejaran minggu ke-3
+Memahami pointer, type assertion, struct, interface, Go Modules, Error Handling, Generic, kata kunci defer, panic dan recover
+
+catatan : tugas minggu ke-2 didalam folder '03-pemrograman-go-lanjutan'  
